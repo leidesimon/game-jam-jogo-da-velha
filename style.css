@@ -1,33 +1,7 @@
 body{
-    display: grid;
     background-color: #fdfd96;
-    grid-template-areas: "nav"
-                         "game"
-                         "footer";
-    grid-template-columns: 25vw 50vw 25vw;
-    grid-template-rows: 8vh 40vh 60vh;
     border: solid 3px;
     border-color: black;
     margin: 0;
-}
-nav{
-    grid-area: nav;
-    width: 25vw;
-}
-
-section{
-    display: grid
-    display-template-areas: "linha1"
-                            
-    grid-area: game;
-    width: 50vw;
-}
-
-section .linha1{
-    border: solid 3px;
-}
-
-footer{
-    grid-area: footer;
-    width: 25vw;
+    
 }
